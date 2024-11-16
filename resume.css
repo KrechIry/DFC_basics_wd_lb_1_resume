@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    margin: 5px;
+}
+
+.left-side {
+    width: 32%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-block: 15px;
+}
+
+.right-side {
+    width: 70%;
+    margin-left: 20px;
+    padding: 20px;
+    color: #211f1f;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-block: 15px;
+}
+
+a:link {
+    color: rgb(50, 48, 38);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d6a67f;
+    background-color: transparent;
+    text-decoration: none;
+   }
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.section-title {
+    color: #bc8b62;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background-color: #bc8b62;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.experience-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience-details {
+    margin-bottom: 5px;
+}
+
+.experience-date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.education-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education-details {
+    margin-bottom: 5px;
+}
+
+.education-date {
+    font-size: 0.9rem;
+    color: #888;
+}
