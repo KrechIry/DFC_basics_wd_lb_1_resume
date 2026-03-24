@@ -32,11 +32,11 @@ body {
     margin-block: 15px;
 }
 
-a:link{
+a:link {
     color: rgb(50, 48, 38);
     background-color: transparent;
-    text-decoration-line: underline;
-    }
+    text-decoration:rgb(50, 48, 38);
+}
 
 a:visited {
     color: #6b8987;
@@ -86,10 +86,20 @@ li {
     flex-direction: column;
 }
 
-.contact-item {
+/*.contact-item {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+}*/
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+   margin-bottom: 1px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-icon {
