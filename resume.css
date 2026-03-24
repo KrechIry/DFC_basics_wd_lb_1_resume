@@ -32,10 +32,16 @@ body {
     margin-block: 15px;
 }
 
-a:link {
+a:link{
     color: rgb(50, 48, 38);
-    background-color: transparent;
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration-thickness: 2px; /* трохи товстіше при наведенні */
 }
 
 a:visited {
